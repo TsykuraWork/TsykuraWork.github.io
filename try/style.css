@@ -65,14 +65,14 @@ ul{
 
 
 .left-part{
-  
-    height:80vh;
+ 
+    height:100vh;
     display: inline-block;
     padding-top: 40vh;
    
 }
 .presentation{
-    transform:translate(0px, -80%);
+    transform:translate(0px, -50%);
    
 }
 .presentation h1,h3{
@@ -139,13 +139,7 @@ opacity:0.5;
 }
 
 
-.left-part{
- 
-    height:55vh; 
-}
-.buttons{
-    background:red;
-}
+
 
 @keyframes drop {
     0%{
