@@ -173,3 +173,11 @@ a:hover {
     font-size: 1.4rem;
   }
 }
+@media (max-width: 371px) {
+  .main-title h1 {
+    font-size: 2rem;
+  }
+  .phone-link {
+    font-size: 1rem;
+  }
+}
