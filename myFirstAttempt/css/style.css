@@ -108,7 +108,7 @@ header li {
 
 .left-side:before {
   content: "";
-  background-image: url(/images/profile.png);
+  background-image: url(./images/profile.png);
   width: 180px;
   height: 180px;
   margin: 0 30px 0 17.5px;
