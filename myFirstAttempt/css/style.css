@@ -4,6 +4,7 @@
   -webkit-text-size-adjust: 100%;
   font-family: sans-serif;
 }
+
 p {
   line-height: 1.428;
 }
@@ -11,6 +12,7 @@ p {
 a {
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
 }
@@ -25,6 +27,7 @@ h3,
 h4 {
   line-height: 1.1;
 }
+
 /* HEADER */
 
 header {
@@ -72,6 +75,11 @@ header h1 {
   align-items: center;
 }
 
+.contact:hover {
+  transition-duration: 0.4s;
+  background-color: #1daa53;
+}
+
 .left-side {
   display: flex;
   align-items: center;
@@ -94,12 +102,18 @@ header li {
   justify-content: center;
 }
 
+header li:hover {
+  transition-duration: 0.4s;
+  background-color: #5f6b77;
+}
+
 .header-image {
   width: 20px;
   height: 20px;
   margin: 9px;
   padding: 1px;
 }
+
 .contact-image {
   width: 20px;
   height: 20px;
@@ -108,7 +122,7 @@ header li {
 
 .left-side:before {
   content: "";
-  background-image: url(./images/profile.png);
+  background-image: url(../images/profile.png);
   width: 180px;
   height: 180px;
   margin: 0 30px 0 17.5px;
@@ -130,7 +144,6 @@ main {
   background: white;
 }
 
-
 .about-me {
   padding-bottom: 30px;
 }
@@ -138,8 +151,6 @@ main {
 .main {
   flex: 1.9;
 }
-
-
 
 .about-me h2 {
   font-family: "Montserrat", sans-serif;
@@ -159,8 +170,6 @@ main {
   line-height: 1.5;
 }
 
-
-
 .text {
   border-bottom: 0.001px solid gray;
 }
@@ -169,7 +178,7 @@ main {
   font-family: "Montserrat", sans-serif;
 
   color: #545e69;
-  padding:  20px;
+  padding: 20px;
   font-weight: 700;
   font-size: 26.5px;
 }
@@ -184,6 +193,7 @@ main {
 .lp-header {
   text-align: center;
 }
+
 .computer {
   width: 100%;
 }
@@ -241,6 +251,7 @@ main {
   margin-left: 30px;
   margin-right: 15px;
 }
+
 .first-image {
   margin-top: 60px;
 }
@@ -257,6 +268,7 @@ main {
 .projects-text {
   margin-left: 20px;
 }
+
 .projects h3 {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -298,7 +310,7 @@ main {
 .work-experience-text p,
 .work-experience-text h3,
 .my-github-text p,
-.my-github-text h3{
+.my-github-text h3 {
   margin: 10px 20px;
   font-size: 16px;
 }
@@ -322,328 +334,297 @@ strong {
   margin: 30px 20px;
 }
 
-
-
-.work-experience h3{
-      font-family: "Montserrat",
-      sans-serif;
-      font-weight: 700;
-      color: #778492;
+.work-experience h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #778492;
 }
 
-.work-experience p{
-    margin-bottom: 30px;
+.work-experience p {
+  margin-bottom: 30px;
 }
 
-
-.work-experience span, 
-.work-experience a{
-    font-family: 'Montserrat', sans-serif;
-    color: #999;
-    font-size: 16px;
-    font-weight: 300;
-
+.work-experience span,
+.work-experience a {
+  font-family: "Montserrat", sans-serif;
+  color: #999;
+  font-size: 16px;
+  font-weight: 300;
 }
 
-.work-experience-text{
-    margin-bottom: 60px;
+.work-experience-text {
+  margin-bottom: 60px;
 }
 
-
-.my-github-text p{
-    
-    font-family: "Lato",
-    arial,
-    sans-serif;
-    color: #434343;
-    font-size: 16px;
-    margin-bottom: 30px;
+.my-github-text p {
+  font-family: "Lato", arial, sans-serif;
+  color: #434343;
+  font-size: 16px;
+  margin-bottom: 30px;
 }
 
 .my-github-text {
-    margin: 0 20px 0 10px;
-    margin-bottom: 600px;
+  margin: 0 20px 0 10px;
+  margin-bottom: 600px;
 }
 
-.my-github-text a{
-    color: #3AAA64;
+.my-github-text a {
+  color: #3aaa64;
 }
-
 
 .list {
-    padding: 30px;
+  padding: 30px;
 }
 
 .list li {
-    margin-bottom: 15px;
-    font-size: 16px;
+  margin-bottom: 15px;
+  font-size: 16px;
 }
 
 .list ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 aside a {
-    color: #3aaa64;
+  color: #3aaa64;
 }
 
 .list .first {
-    width: 15px;
-    height: 15px;
-    margin-right: 15px;
+  width: 15px;
+  height: 15px;
+  margin-right: 15px;
 }
 
 .list .second,
 .list .third {
-    width: 15px;
-    height: 15px;
-    margin-right: 20px;
+  width: 15px;
+  height: 15px;
+  margin-right: 20px;
 }
 
 aside {
-    flex: 1;
-    font-family: "Lato", arial, sans-serif;
+  flex: 1;
+  font-family: "Lato", arial, sans-serif;
 }
 
-.aside-h2{
-    font-family: "Montserrat",
-    sans-serif;
-    color: #545e69;
-    padding: 30px 0px 15px 0;
-    font-weight: 700;
-    font-size: 26.5px;
+.aside-h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #545e69;
+  padding: 30px 0px 15px 0;
+  font-weight: 700;
+  font-size: 26.5px;
 }
 
-
-.aside-p{
-      line-height: 1.428;
-    font-family: "Lato",
-    arial,
-    sans-serif;
-    padding: 15px 0px;
-    color: #666;
-    font-size: 16px;
+.aside-p {
+  line-height: 1.428;
+  font-family: "Lato", arial, sans-serif;
+  padding: 15px 0px;
+  color: #666;
+  font-size: 16px;
 }
 
-
-.aside-h3{
-    font-family: "Montserrat",
-    sans-serif;
-    line-height: 1.1;
-    font-weight: 700 ;
-    font-size: 16px;
-    color: #778492;
+.aside-h3 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.1;
+  font-weight: 700;
+  font-size: 16px;
+  color: #778492;
 }
 
-
-.skills-text{
-    padding: 0 30px;
+.skills-text {
+  padding: 0 30px;
 }
 
-.item-title{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 0 5px 0;
+.item-title {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 5px 0;
 }
 
-.item{
-    padding: 15px 0;
+.item {
+  padding: 15px 0;
 }
 
-.skills .find-out-more{
-    margin: 15px 0 40px 0;
+.skills .find-out-more {
+  margin: 15px 0 40px 0;
 }
 
-.testimonials-text{
-    padding: 0 30px;
+.testimonials-text {
+  padding: 0 30px;
 }
 
-blockquote{
-    padding-left: 20px;
-    padding-bottom: 15px;
-    padding-right: 10px;
+blockquote {
+  padding-left: 20px;
+  padding-bottom: 15px;
+  padding-right: 10px;
 }
 
-blockquote img{
-    margin:5px 10px 0px 0;
-}
-.helpless{
-    background-color: transparent;
+blockquote img {
+  margin: 5px 10px 0px 0;
 }
 
- .author{
-    margin:30px 25px;
-
-}
-.author-name{
-    color:#939ea9;
-    font-weight: 600;
-    font-size: 14px;    
+.helpless {
+  background-color: transparent;
 }
 
-.curabitur{
-        color:#939ea9;
-        font-weight: 500;
-        font-size: 14px;
+.author {
+  margin: 30px 25px;
 }
 
-.testimonials-text .find-out-more{
-    margin-bottom: 50px;
+.author-name {
+  color: #939ea9;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.curabitur {
+  color: #939ea9;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.testimonials-text .find-out-more {
+  margin-bottom: 50px;
 }
 
 .latest-blog-posts-text {
-    padding: 0 30px;
-    margin-bottom: 10px;
+  padding: 0 30px;
+  margin-bottom: 10px;
 }
 
-.aside-section{
-    padding-top: 15px;
-    padding-bottom: 20px;
+.aside-section {
+  padding-top: 15px;
+  padding-bottom: 20px;
 }
 
-.favourite-coding-music-text{
-    padding: 0 30px 30px;
+.favourite-coding-music-text {
+  padding: 0 30px 30px;
 }
 
 .favourite-coding-music ul,
 .conferences ul,
 .credits ul {
-    list-style: none;
-    padding:0px;
-    margin: 10px 0;
+  list-style: none;
+  padding: 0px;
+  margin: 10px 0;
 }
+
 .favourite-coding-music li,
 .conferences li,
 .credits li {
-    margin: 10px 0;
+  margin: 10px 0;
 }
+
 .favourite-coding-music a,
 .conferences a,
 .credits .list-a {
-    
-    font-size: 16px;
-    color: #778492;
-    margin-left: 10px;
-    font-family: 'Lato',
-    arial,
-    sans-serif;
+  font-size: 16px;
+  color: #778492;
+  margin-left: 10px;
+  font-family: "Lato", arial, sans-serif;
 }
 
 .favourite-coding-music img,
 .conferences img,
 .credits img {
-    width: 15px;
-    height: 15px;
+  width: 15px;
+  height: 15px;
 }
 
-.credits-text{
-    padding: 0 30px;
+.credits-text {
+  padding: 0 30px;
 }
 
-.profile-p{
-    line-height: 1.428;
-    font-family: "Lato",
-    arial,
-    sans-serif;
-    color: #666;
-    padding: 5px 0;
-    font-size: 16px;
+.profile-p {
+  line-height: 1.428;
+  font-family: "Lato", arial, sans-serif;
+  color: #666;
+  padding: 5px 0;
+  font-size: 16px;
 }
 
-.profile-a{
-    font-size: 16px;
-    color: #778492;
-    font-family: 'Lato',
-    arial,
-    sans-serif;
-}
-.list-box{
-    border-bottom: 0.1px gray solid;
-    padding-bottom: 20px;
-}
-.add-box{
-    padding-top: 20px;
+.profile-a {
+  font-size: 16px;
+  color: #778492;
+  font-family: "Lato", arial, sans-serif;
 }
 
+.list-box {
+  border-bottom: 0.1px gray solid;
+  padding-bottom: 20px;
+}
 
-.add-box-btn-green{
-    background-color: #5fbb54;
-    border: none;
-    transform: translateY(-5px);
-    border-radius: 5px;
-    padding: 10px 15px;
-    font-size: 14px;
-    font-weight: bold;
-    color: white;
-    display: flex;
-    font-family: "Montserrat",
-    sans-serif;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0px;
+.add-box {
+  padding-top: 20px;
+}
+
+.add-box-btn-green {
+  background-color: #5fbb54;
+  border: none;
+  transform: translateY(-5px);
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
 }
 
 .add-box-btn-blue img,
-.add-box-btn-green img{
-    margin-right: 10px;
+.add-box-btn-green img {
+  margin-right: 10px;
 }
 
-
-.add-box-btn-blue{
-    display: flex;
-    font-family: "Montserrat",
-    arial,
-    sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    color: white;
-    background-color: #479fc8;
-    border: 1px solid #479fc8;
-    border-radius: 5px;
-    padding: 10px 15px;
-    align-items: center;
-    justify-content: center;
-    line-height: 1.48;
-    margin: 10px 0px 20px 0;
-} 
-
-.credits-text{
-    margin-bottom: 40px;
-}
-
-
-.add-box .a-link{
-    font-weight: 300;
-    font-size: 16px;
-
-}
-
-.add-box p{
-    margin: 0px 0 10px 0;
-}
-
-footer{
- display: block;
-    text-align: center;
+.add-box-btn-blue {
+  display: flex;
+  font-family: "Montserrat", arial, sans-serif;
+  font-weight: 700;
   font-size: 14px;
-  font-family: "Lato",
-  arial,
-  sans-serif;
-  color:#a1aab4;
-  background:#32383e;
+  color: white;
+  background-color: #479fc8;
+  border: 1px solid #479fc8;
+  border-radius: 5px;
+  padding: 10px 15px;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.48;
+  margin: 10px 0px 20px 0;
+}
+
+.credits-text {
+  margin-bottom: 40px;
+}
+
+.add-box .a-link {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.add-box p {
+  margin: 0px 0 10px 0;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Lato", arial, sans-serif;
+  color: #a1aab4;
+  background: #32383e;
   height: 44px;
- 
-
 }
 
-footer span{
-    display: block;
-    position:relative;
-    top:35%;
-
+footer span {
+  display: block;
+  position: relative;
+  top: 35%;
 }
 
-footer a{
-    color: white;
+footer a {
+  color: white;
 }
