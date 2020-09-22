@@ -1744,10 +1744,21 @@
 
 .nineth-screen .text-block {
     margin-left: 30px;
+    padding-bottom: 10px;
+    max-height:200px;    
 }
 
 .nineth-screen .icon-block {
     margin: 18px 0 15.9px 0;
+}
+
+.nineth-screen article button:hover{
+cursor: pointer;
+width: 120px;
+height: 40px;
+transition: .1s ease-in-out;
+
+
 }
 
 .nineth-screen .tb-title {
