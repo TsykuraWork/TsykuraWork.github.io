@@ -3,15 +3,15 @@
 window.addEventListener('DOMContentLoaded', (event) => {
 
 
-        setTimeout(() => {
-        document.querySelector('.message').innerHTML+='.';
-    },1000);
-         setTimeout(() => {
-        document.querySelector('.message').innerHTML+='.';
-    },2000);
-         setTimeout(() => {
-        document.querySelector('.message').innerHTML+='.';
-    },2990);
+    //     setTimeout(() => {
+    //     document.querySelector('.message').innerHTML+='.';
+    // },1000);
+    //      setTimeout(() => {
+    //     document.querySelector('.message').innerHTML+='.';
+    // },2000);
+    //      setTimeout(() => {
+    //     document.querySelector('.message').innerHTML+='.';
+    // },3000);
 
     
 
