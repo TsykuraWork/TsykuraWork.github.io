@@ -5,8 +5,6 @@
 
 .message {
   visibility: visible;
-  -webkit-transition-delay: 5s;
-          transition-delay: 5s;
   font-size: 3em;
   font-family: 'Roboto', sans-serif;
   text-align: center;
