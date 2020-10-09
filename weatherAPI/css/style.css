@@ -5,8 +5,8 @@
 
 .message {
   visibility: visible;
-  -webkit-transition-delay: 1s;
-          transition-delay: 1s;
+  -webkit-transition-delay: 3s;
+          transition-delay: 3s;
   font-size: 3em;
   font-family: 'Roboto', sans-serif;
   text-align: center;
@@ -22,8 +22,8 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   font-family: 'Roboto', sans-serif;
-  -webkit-transition-delay: 1s;
-          transition-delay: 1s;
+  -webkit-transition-delay: 3s;
+          transition-delay: 3s;
   visibility: hidden;
 }
 

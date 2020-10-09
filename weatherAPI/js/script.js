@@ -1,11 +1,15 @@
 
-
-window.addEventListener('DOMContentLoaded', (event) => {
-setTimeout(() => {
-    document.querySelector('.message').style.visibility = 'hidden';
-    document.querySelector('.container').style.visibility = 'visible';
-},3000);
-
+document.querySelector('.message').style.visibility = 'hidden';
+document.querySelector('.container').style.visibility = 'visible';
+        setTimeout(() => {
+        document.querySelector('.message').innerHTML+='.';
+    },1000);
+         setTimeout(() => {
+        document.querySelector('.message').innerHTML+='.';
+    },2000);
+         setTimeout(() => {
+        document.querySelector('.message').innerHTML+='.';
+    },3000);
 
     
 
@@ -30,7 +34,7 @@ setInterval(() => {
         .catch(function () {})
     }
 },3000);
-});
+
 
 
 
