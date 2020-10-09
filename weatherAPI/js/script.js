@@ -1,6 +1,6 @@
 
-document.querySelector('.message').style.visibility = 'hidden';
-document.querySelector('.container').style.visibility = 'visible';
+
+    
         setTimeout(() => {
         document.querySelector('.message').innerHTML+='.';
     },1000);
@@ -10,8 +10,10 @@ document.querySelector('.container').style.visibility = 'visible';
          setTimeout(() => {
         document.querySelector('.message').innerHTML+='.';
     },3000);
-
-    
+setTimeout( () => {
+    document.querySelector('.message').style.visibility = 'hidden';
+    document.querySelector('.container').style.visibility = 'visible';
+},5000)
 
 const fetches = ['London,uk', 'Kyiv,ua', 'Donetsk,ua', 'Moscow,ru']
 let city_name = document.querySelectorAll('.city-name');
