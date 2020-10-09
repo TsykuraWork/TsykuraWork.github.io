@@ -2,12 +2,31 @@
     box-sizing: border-box;
 }
 
+
+body:hover .container {
+    visibility: visible;
+}
+
+body:hover .message {
+    visibility: hidden;
+}
+
+.message {
+    visibility: visible;
+    transition-delay: 3.1s;
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+  
+}
+
 .container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     font-family: 'Roboto', sans-serif;
-
-
+    transition-delay: 3.1s;
+    visibility: hidden;
 
     .some-city {
         margin: 3em 5em;
@@ -35,7 +54,7 @@
 
         .item {
             margin-top: 1em;
-            text-align: justify;
+            text-align: center;
             font-size: .9em;
         }
 
