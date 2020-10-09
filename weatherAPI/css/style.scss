@@ -6,19 +6,20 @@
     display: flex;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
-   
+
 
 
     .some-city {
         margin: 3em 5em;
         padding: 3em 2em;
         border: 4px green solid;
-        text-align: center;
-        
-     .main-info{
-            border-top: .5px solid rgba(112, 109, 109,.3);
+
+
+        .main-info {
+            border-top: .5px solid rgba(112, 109, 109, .3);
             border-bottom: .5px solid rgba(112, 109, 109, .3);
             padding: 1em 0 1em 0;
+            text-align: center;
 
             .city-name {
                 font-size: 2em;
@@ -26,13 +27,18 @@
                 color: rgb(27, 175, 27);
                 padding: .25em .5em;
             }
-            .tempreture{
+
+            .tempreture {
                 font-size: 3em;
             }
-     }
+        }
 
-     .item{
-         margin-top: 1em;
-     }
+        .item {
+            margin-top: 1em;
+            text-align: justify;
+            font-size: .9em;
+        }
+
+
     }
 }

@@ -6,9 +6,9 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=fc1378d
     document.querySelector('.city-name').innerHTML = data.name;
     const temp = `${(+data.main.temp - 273).toFixed(2)}°`;
     document.querySelector('.tempreture').innerHTML = temp;
-    document.querySelector('.weather-judge').innerHTML = data.weather[0].main;
-    document.querySelector('.wind-speed').innerHTML = `wind speed: ${data.wind.speed}m/s`;
-    document.querySelector('.country').innerHTML = `country: ${data.sys.country}`;
+    document.querySelector('.weather-judge').innerHTML = `Weather: ${data.weather[0].main}`;
+    document.querySelector('.wind-speed').innerHTML = `Wind speed: ${data.wind.speed}m/s`;
+    document.querySelector('.country').innerHTML = `Country: ${data.sys.country}`;
 })
 .catch(function () {
 
