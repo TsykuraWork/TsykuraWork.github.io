@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+.some-city {
+    margin: 3em 5em;
+    padding: 3em 2em;
+    border: 2px palegreen solid;
+
+
+
+}
