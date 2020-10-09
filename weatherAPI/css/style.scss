@@ -3,33 +3,24 @@
 }
 
 
-// body:hover .container {
-//     display: flex;
-//     justify-content: center;
-//     flex-wrap: wrap;
-// }
 
-// body:hover .message {
-//     display: none;
-// }
 
-// .message {
-//     display: block;
-//     transition-delay: 4s;
-//     font-size: 3em;
-//     font-family: 'Roboto', sans-serif;
-//     text-align: center;
+.message {
+    visibility: visible;
+    transition-delay: 1s;
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
   
-// }
+}
 
 .container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
- 
     font-family: 'Roboto', sans-serif;
-    // transition-delay: 4s;
-    // visibility: hidden;
+    transition-delay: 1s;
+    visibility: hidden;
 
     .some-city {
         margin: 3em 4em;

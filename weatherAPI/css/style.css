@@ -3,18 +3,10 @@
           box-sizing: border-box;
 }
 
-body:hover .container {
-  visibility: visible;
-}
-
-body:hover .message {
-  visibility: hidden;
-}
-
 .message {
   visibility: visible;
-  -webkit-transition-delay: 3.1s;
-          transition-delay: 3.1s;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
   font-size: 3em;
   font-family: 'Roboto', sans-serif;
   text-align: center;
@@ -30,14 +22,14 @@ body:hover .message {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   font-family: 'Roboto', sans-serif;
-  -webkit-transition-delay: 3.1s;
-          transition-delay: 3.1s;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
   visibility: hidden;
 }
 
 .container .some-city {
-  margin: 3em 5em;
-  padding: 3em 2em;
+  margin: 3em 4em;
+  padding: 3em 1.5em;
   border: 4px green solid;
 }
 
