@@ -12,7 +12,7 @@ export function loadingPage() {
         document.querySelector('.message').innerHTML+='.';
         },3000);
     setTimeout( () => {
-        document.querySelector('.message').style.visibility = 'hidden';
+        document.querySelector('.message').innerHTML = '<h3>Your own pocket<br>Weather App</h3><p style ="font-size: .5em">click the icons for more info</p>';
         document.querySelector('.container').style.visibility = 'visible';
     },5000)
 
@@ -25,7 +25,6 @@ export function loadingPage() {
     let wind_speed = document.querySelectorAll('.wind-speed');
     let country = document.querySelectorAll('.country');
     let weather_icon = document.querySelectorAll('.weather-icon');
-    let add_info = document.querySelectorAll('.additional-info');
     let isOpen = [true,true,true,true];
 
 

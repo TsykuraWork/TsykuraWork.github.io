@@ -2,12 +2,13 @@
     box-sizing: border-box;
 }
 
-    .height{
-        height: 0px;
-    }
-    .height:nth-child(1){
-        visibility: hidden;
-    }
+.height {
+    height: 0px;
+}
+
+.height:nth-child(1) {
+    visibility: hidden;
+}
 
 
 .message {
@@ -30,7 +31,7 @@
         width: 215px;
         border: 4px green solid;
         background-color: lightblue;
-        
+
         .line {
             width: 70%;
             margin: 0 auto;
@@ -43,7 +44,7 @@
             margin-bottom: 1.5em;
 
         }
-        
+
 
         .main-info {
 
@@ -76,7 +77,7 @@
                 right: 0;
                 bottom: 0;
                 z-index: 1;
-                background-color:transparent
+                background-color: transparent
             }
 
             .weather-icon {
@@ -84,14 +85,14 @@
                 top: -.9em;
                 left: 0;
                 right: 0;
-                bottom: 0;  
-                z-index: 1;  
-                background-color: red;     
+                bottom: 0;
+                z-index: 1;
+                background-color: red;
             }
 
             .zaglushka:active {
-                background-color: rgba(156, 151, 151, .1) ;
-                border-radius: 5% 5% 0 0 ;
+                background-color: rgba(156, 151, 151, .1);
+                border-radius: 5% 5% 0 0;
             }
 
             .item {
