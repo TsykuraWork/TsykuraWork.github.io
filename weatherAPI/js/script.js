@@ -1,46 +1,46 @@
+import {loadingPage} from './load.js';
+loadingPage();
 
 
-    
-//         setTimeout(() => {
-//         document.querySelector('.message').innerHTML+='.';
-//     },1000);
-//          setTimeout(() => {
-//         document.querySelector('.message').innerHTML+='.';
-//     },2000);
-//          setTimeout(() => {
-//         document.querySelector('.message').innerHTML+='.';
-//     },3000);
-// setTimeout( () => {
-//     document.querySelector('.message').style.visibility = 'hidden';
-//     document.querySelector('.container').style.visibility = 'visible';
-// },5000)
+document.getElementById('fir').addEventListener('mouseup', () => {
+    document.querySelector('.first').classList.toggle('height');     
+}) 
+
+document.getElementById('sec').onclick = () => {
+   setTimeout(() => {
+        document.querySelector('.second').classList.toggle('height');   
+   },300 )   
+}
+document.getElementById('thir').onclick = () => {
+    document.querySelector('.third').classList.toggle('height');      
+}
+document.getElementById('four').onclick = () => {
+    document.querySelector('.fourth').classList.toggle('height');      
+}
 
 
-    document.querySelector('.message').style.visibility = 'hidden';
-    document.querySelector('.container').style.visibility = 'visible';
+// document.querySelector('.second').onclick = () => {
+//     fetch(`https://api.openweathermap.org/data/2.5/weather?q=Kyiv,ua&appid=fc1378d4e91f84ad3c6c0eed07909642`)
+//             .then(function (resp) {return resp.json() })
+//             .then(function (data) {
 
-const fetches = ['London,uk', 'Kyiv,ua', 'Donetsk,ua', 'Moscow,ru']
-let city_name = document.querySelectorAll('.city-name');
-let temp = document.querySelectorAll('.tempreture');
-let weather = document.querySelectorAll('.weather-judge');
-let wind_speed = document.querySelectorAll('.wind-speed');
-let country = document.querySelectorAll('.country');
-setInterval(() => {
-    for(let i = 0; i < city_name.length; i++){
-        fetch(`https://api.openweathermap.org/data/2.5/weather?q=${fetches[i]},ua&appid=fc1378d4e91f84ad3c6c0eed07909642`)
-        .then(function (resp) {return resp.json() })
-        .then(function (data) {
-            city_name[i].innerHTML = data.name;
-            const temperature = `${(+data.main.temp - 273).toFixed(2)}°`;
-            temp[i].innerHTML = temperature;
-            weather[i].innerHTML = `Weather: ${data.weather[0].main}`;
-            wind_speed[i].innerHTML = `Wind speed: ${data.wind.speed}m/s`;
-            country[i].innerHTML = `Country: ${data.sys.country}`;
-        })
-        .catch(function () {})
-    }
-},3000);
+//             })
+// }
 
 
+// document.querySelector('.first').onclick = () => {
+//     fetch(`https://api.openweathermap.org/data/2.5/weather?q=Donetsk,ua&appid=fc1378d4e91f84ad3c6c0eed07909642`)
+//             .then(function (resp) {return resp.json() })
+//             .then(function (data) {
+
+//             })
+// }
 
 
+// document.querySelector('.first').onclick = () => {
+//     fetch(`https://api.openweathermap.org/data/2.5/weather?q=Moscow,ru&appid=fc1378d4e91f84ad3c6c0eed07909642`)
+//             .then(function (resp) {return resp.json() })
+//             .then(function (data) {
+
+//             })
+// }
