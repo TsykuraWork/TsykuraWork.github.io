@@ -10,7 +10,7 @@
     font-size: 3em;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-  
+
 }
 
 .container {
@@ -22,15 +22,26 @@
 
     .some-city {
         margin: 3em 4em;
-        padding: 3em 1.5em;
-        border: 4px green solid;
 
+        border: 4px green solid;
+        .line {
+            width: 80%;
+            margin:0 auto;
+             border-bottom: .5px solid rgba(112, 109, 109, .3);
+             
+        }
+        .line-top{
+            margin-top: 3em;
+            margin-bottom: 1.5em;
+
+        }
 
         .main-info {
-            border-top: .5px solid rgba(112, 109, 109, .3);
-            border-bottom: .5px solid rgba(112, 109, 109, .3);
-            padding: 1em 0 1em 0;
+            // border-top: .5px solid rgba(112, 109, 109, .3);
+           
+            padding: 0 1.5em 1.5em 1.5em;
             text-align: center;
+            
 
             .city-name {
                 font-size: 2em;
@@ -44,10 +55,23 @@
             }
         }
 
-        .item {
-            margin-top: 1em;
-            text-align: center;
-            font-size: .9em;
+        .additional-info {
+            position: relative;
+            padding-bottom: 3em;
+            .weather-icon {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: transparent;
+            }
+
+            .item {
+                margin-top: 1em;
+                text-align: center;
+                font-size: .9em;
+            }
         }
 
 
