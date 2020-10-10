@@ -2,14 +2,13 @@ import {loadingPage} from './load.js';
 loadingPage();
 
 
-document.getElementById('fir').addEventListener('mouseup', () => {
+document.getElementById('fir').onclick = () => {
     document.querySelector('.first').classList.toggle('height');     
-}) 
+} 
 
 document.getElementById('sec').onclick = () => {
-   setTimeout(() => {
-        document.querySelector('.second').classList.toggle('height');   
-   },300 )   
+     document.querySelector('.second').classList.toggle('height');   
+  
 }
 document.getElementById('thir').onclick = () => {
     document.querySelector('.third').classList.toggle('height');      

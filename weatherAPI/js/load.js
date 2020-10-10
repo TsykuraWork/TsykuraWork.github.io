@@ -35,7 +35,7 @@ export function loadingPage() {
             .then(function (resp) {return resp.json() })
             .then(function (data) {
                 
-                console.log(data);
+                
                 weather_icon[i].innerHTML = `<img style ="width: 7em; height: 7em;" src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png">`;
                 weather_icon[i].style.textAlign = "center";  
                 weather_icon[i].style.backgroundColor = "lightblue";   

@@ -71,15 +71,27 @@
   cursor: pointer;
 }
 
+.container .some-city .additional-info .zaglushka {
+  position: absolute;
+  top: -.9em;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background-color: transparent;
+}
+
 .container .some-city .additional-info .weather-icon {
   position: absolute;
   top: -.9em;
   left: 0;
   right: 0;
   bottom: 0;
+  z-index: 1;
+  background-color: red;
 }
 
-.container .some-city .additional-info .weather-icon:active {
+.container .some-city .additional-info .zaglushka:active {
   background-color: rgba(156, 151, 151, 0.1);
   border-radius: 5% 5% 0 0;
 }
@@ -88,10 +100,5 @@
   margin-top: 1em;
   text-align: center;
   font-size: .9em;
-}
-
-.container .additional-info:active .weather-icon {
-  background-color: rgba(156, 151, 151, 0.1);
-  border-radius: 5% 5% 0 0;
 }
 /*# sourceMappingURL=style.css.map */

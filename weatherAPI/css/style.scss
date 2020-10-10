@@ -69,18 +69,27 @@
             padding-bottom: 3em;
             cursor: pointer;
 
-            .weather-icon {
+            .zaglushka {
                 position: absolute;
-                
                 top: -.9em;
                 left: 0;
                 right: 0;
-                bottom: 0;          
-              
-                
+                bottom: 0;
+                z-index: 1;
+                background-color:transparent
             }
 
-            .weather-icon:active {
+            .weather-icon {
+                position: absolute;
+                top: -.9em;
+                left: 0;
+                right: 0;
+                bottom: 0;  
+                z-index: 1;  
+                background-color: red;     
+            }
+
+            .zaglushka:active {
                 background-color: rgba(156, 151, 151, .1) ;
                 border-radius: 5% 5% 0 0 ;
             }
@@ -95,8 +104,5 @@
 
     }
 
-    .additional-info:active .weather-icon {
-        background-color: rgba(156, 151, 151, .1) ;
-        border-radius: 5% 5% 0 0 ;
-    }
+
 }
