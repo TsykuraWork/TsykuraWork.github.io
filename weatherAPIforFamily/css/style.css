@@ -31,7 +31,8 @@
 }
 
 .container .some-city {
-  margin-top: 3em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
   border: 4px green solid;
   background-color: lightblue;
 }
@@ -44,7 +45,6 @@
 
 .container .some-city .line-top {
   margin-top: 1.5em;
-  margin-bottom: 1.5em;
   margin-bottom: 1.5em;
 }
 
