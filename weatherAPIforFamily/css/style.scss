@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+.height {
+    height: 0px;
+}
+
+.height:nth-child(1) {
+    visibility: hidden;
+}
+
+
+.message {
+    visibility: visible;
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;
+    visibility: hidden;
+
+    .some-city {
+        margin-top: 3em;
+        margin-bottom: 3em;
+        width: 215px;
+        border: 4px green solid;
+        background-color: lightblue;
+
+        .line {
+            width: 70%;
+            margin: 0 auto;
+            border-bottom: .5px solid rgba(112, 109, 109, .3);
+
+        }
+
+        .line-top {
+            margin-top: 3em;
+            margin-bottom: 1.5em;
+
+        }
+
+
+        .main-info {
+
+
+            padding: 0 2em 1.5em 2em;
+            text-align: center;
+
+
+            .city-name {
+                font-size: 2em;
+                font-weight: 700;
+                color: rgb(27, 175, 27);
+                padding: .25em .5em;
+            }
+
+            .tempreture {
+                font-size: 3em;
+            }
+        }
+
+        .additional-info {
+            position: relative;
+            padding-bottom: 3em;
+            cursor: pointer;
+
+            .zaglushka {
+                position: absolute;
+                top: -.9em;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                z-index: 1;
+                background-color: transparent
+            }
+
+            .weather-icon {
+                position: absolute;
+                top: -.9em;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                z-index: 1;
+                background-color: red;
+            }
+
+            .zaglushka:active {
+                background-color: rgba(156, 151, 151, .1);
+                border-radius: 5% 5% 0 0;
+            }
+
+            .item {
+                margin-top: 1em;
+                text-align: center;
+                font-size: .9em;
+            }
+        }
+
+
+    }
+
+
+}
