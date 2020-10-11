@@ -32,8 +32,6 @@
 
 .container .some-city {
   margin-top: 3em;
-  margin-bottom: 3em;
-  width: 215px;
   border: 4px green solid;
   background-color: lightblue;
 }
@@ -88,7 +86,6 @@
   right: 0;
   bottom: 0;
   z-index: 1;
-  background-color: red;
 }
 
 .container .some-city .additional-info .zaglushka:active {
@@ -100,5 +97,12 @@
   margin-top: 1em;
   text-align: center;
   font-size: .9em;
+}
+
+@media (max-width: 401px) {
+  .city-name,
+  .tempreture {
+    font-size: 1.4em !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -18,8 +18,8 @@ export function loadingPage() {
 
 
 
-    const fetches = ['London,uk', 'Kyiv,ua', 'Donetsk,ua', 'Moscow,ru']
-    let city_name = document.querySelectorAll('.city-name');
+    const fetches = ['Donetsk,ua', 'Novorossiysk,ru', 'Taganrog,ru', 'Murmansk,ru']
+
     let temp = document.querySelectorAll('.tempreture');
     let weather = document.querySelectorAll('.weather-judge');
     let wind_speed = document.querySelectorAll('.wind-speed');
@@ -29,7 +29,7 @@ export function loadingPage() {
 
 
     setInterval(() => {
-        for(let i = 0; i < city_name.length; i++){
+        for(let i = 0; i < fetches.length; i++){
             fetch(`https://api.openweathermap.org/data/2.5/weather?q=${fetches[i]}&appid=fc1378d4e91f84ad3c6c0eed07909642`)
             .then(function (resp) {return resp.json() })
             .then(function (data) {
@@ -40,7 +40,7 @@ export function loadingPage() {
                 weather_icon[i].style.backgroundColor = "lightblue";   
                 isOpen[i] = !isOpen[i];
 
-                city_name[i].innerHTML = data.name;
+       
                 const temperature = `${(+data.main.temp - 273).toFixed(1)}°`;
                 temp[i].innerHTML = temperature;
                 weather[i].innerHTML = `Weather: ${data.weather[0].main}`;
