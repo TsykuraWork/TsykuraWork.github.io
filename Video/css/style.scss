@@ -1,0 +1,27 @@
+body{
+    background-color: #ffde73;
+    font-family: 'Roboto';
+    .video-block {
+        display: flex;
+        justify-content: center;
+        // transform: rotate(-90deg);
+        margin-top: 100px;
+
+    }
+    .text-block { 
+        margin: 100px 0;
+        text-align: center;
+        button{
+            background-color: yellow;
+            padding: 1em;
+            border: none;
+        }
+    }
+}
+
+@media (min-width: 1000px){
+ video{
+     height: 400px;
+     width: 710px;
+ }   
+}

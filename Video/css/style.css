@@ -1,0 +1,33 @@
+body {
+  background-color: #ffde73;
+  font-family: 'Roboto';
+}
+
+body .video-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 100px;
+}
+
+body .text-block {
+  margin: 100px 0;
+  text-align: center;
+}
+
+body .text-block button {
+  background-color: yellow;
+  padding: 1em;
+  border: none;
+}
+
+@media (min-width: 1000px) {
+  video {
+    height: 400px;
+    width: 710px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
