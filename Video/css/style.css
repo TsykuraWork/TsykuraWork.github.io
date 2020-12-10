@@ -1,5 +1,5 @@
 body {
-  background-color: #ffde73;
+  background-color: #B931EB;
   font-family: 'Roboto';
 }
 
@@ -11,17 +11,6 @@ body .video-block {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 100px;
-}
-
-body .text-block {
-  margin: 100px 0;
-  text-align: center;
-}
-
-body .text-block button {
-  background-color: yellow;
-  padding: 1em;
-  border: none;
 }
 
 @media (min-width: 1000px) {
