@@ -1,6 +1,6 @@
 
 let btn = document.querySelector("button");
-let ob = document.querySelector(".output-block")
+let ob = document.querySelector(".output-block");
 
 // EXERCISEZ
 
@@ -51,7 +51,7 @@ btn.addEventListener("click", () => {
             ob.innerHTML+=`<p>1) ${getRand(chest)}</p> 
                            <p>2) ${getRand(chest)}</p> 
                            <p>3) ${getRand(tri)}</p> 
-                           <p>4) ${getRand(tri)}</p> `
+                           <p>4) ${getRand(tri)}</p>`
         break;
         case 'spina':
             ob.innerHTML+=`<p>1) ${getRand(wideBack)}</p>
